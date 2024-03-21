@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		09B002152BAA6D0200A0CE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B002142BAA6D0200A0CE73 /* AppDelegate.swift */; };
-		09B002172BAA6D0200A0CE73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B002162BAA6D0200A0CE73 /* SceneDelegate.swift */; };
-		09B002192BAA6D0200A0CE73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B002182BAA6D0200A0CE73 /* ViewController.swift */; };
-		09B0021C2BAA6D0200A0CE73 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 09B0021B2BAA6D0200A0CE73 /* Base */; };
+		09B002192BAA6D0200A0CE73 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B002182BAA6D0200A0CE73 /* LoginViewController.swift */; };
 		09B0021E2BAA6D0300A0CE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B0021D2BAA6D0300A0CE73 /* Assets.xcassets */; };
 		09B002212BAA6D0300A0CE73 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 09B002202BAA6D0300A0CE73 /* Base */; };
-		09B0022C2BAA6D0300A0CE73 /* BankeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B0022B2BAA6D0300A0CE73 /* BankeyTests.swift */; };
 		09B002362BAA6D0300A0CE73 /* BankeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B002352BAA6D0300A0CE73 /* BankeyUITests.swift */; };
 		09B002382BAA6D0300A0CE73 /* BankeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B002372BAA6D0300A0CE73 /* BankeyUITestsLaunchTests.swift */; };
+		09B002492BAA840D00A0CE73 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B002482BAA840D00A0CE73 /* LoginView.swift */; };
+		09B0024B2BAA8D8A00A0CE73 /* TestBankyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B0024A2BAA8D8A00A0CE73 /* TestBankyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +37,16 @@
 /* Begin PBXFileReference section */
 		09B002112BAA6D0200A0CE73 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B002142BAA6D0200A0CE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09B002162BAA6D0200A0CE73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09B002182BAA6D0200A0CE73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		09B0021B2BAA6D0200A0CE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09B002182BAA6D0200A0CE73 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		09B0021D2BAA6D0300A0CE73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09B002202BAA6D0300A0CE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09B002222BAA6D0300A0CE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B002272BAA6D0300A0CE73 /* BankeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		09B0022B2BAA6D0300A0CE73 /* BankeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankeyTests.swift; sourceTree = "<group>"; };
 		09B002312BAA6D0300A0CE73 /* BankeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B002352BAA6D0300A0CE73 /* BankeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankeyUITests.swift; sourceTree = "<group>"; };
 		09B002372BAA6D0300A0CE73 /* BankeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09B002482BAA840D00A0CE73 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		09B0024A2BAA8D8A00A0CE73 /* TestBankyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBankyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +97,9 @@
 		09B002132BAA6D0200A0CE73 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				09B002442BAA82F800A0CE73 /* Files */,
 				09B002142BAA6D0200A0CE73 /* AppDelegate.swift */,
-				09B002162BAA6D0200A0CE73 /* SceneDelegate.swift */,
-				09B002182BAA6D0200A0CE73 /* ViewController.swift */,
-				09B0021A2BAA6D0200A0CE73 /* Main.storyboard */,
-				09B0021D2BAA6D0300A0CE73 /* Assets.xcassets */,
-				09B0021F2BAA6D0300A0CE73 /* LaunchScreen.storyboard */,
-				09B002222BAA6D0300A0CE73 /* Info.plist */,
+				09B002452BAA834500A0CE73 /* Login */,
 			);
 			path = Bankey;
 			sourceTree = "<group>";
@@ -113,7 +107,7 @@
 		09B0022A2BAA6D0300A0CE73 /* BankeyTests */ = {
 			isa = PBXGroup;
 			children = (
-				09B0022B2BAA6D0300A0CE73 /* BankeyTests.swift */,
+				09B0024A2BAA8D8A00A0CE73 /* TestBankyViewController.swift */,
 			);
 			path = BankeyTests;
 			sourceTree = "<group>";
@@ -125,6 +119,25 @@
 				09B002372BAA6D0300A0CE73 /* BankeyUITestsLaunchTests.swift */,
 			);
 			path = BankeyUITests;
+			sourceTree = "<group>";
+		};
+		09B002442BAA82F800A0CE73 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				09B0021D2BAA6D0300A0CE73 /* Assets.xcassets */,
+				09B0021F2BAA6D0300A0CE73 /* LaunchScreen.storyboard */,
+				09B002222BAA6D0300A0CE73 /* Info.plist */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		09B002452BAA834500A0CE73 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				09B002182BAA6D0200A0CE73 /* LoginViewController.swift */,
+				09B002482BAA840D00A0CE73 /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +211,7 @@
 					};
 					09B002262BAA6D0300A0CE73 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 						TestTargetID = 09B002102BAA6D0200A0CE73;
 					};
 					09B002302BAA6D0300A0CE73 = {
@@ -233,7 +247,6 @@
 			files = (
 				09B0021E2BAA6D0300A0CE73 /* Assets.xcassets in Resources */,
 				09B002212BAA6D0300A0CE73 /* Base in Resources */,
-				09B0021C2BAA6D0200A0CE73 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09B002192BAA6D0200A0CE73 /* ViewController.swift in Sources */,
+				09B002492BAA840D00A0CE73 /* LoginView.swift in Sources */,
+				09B002192BAA6D0200A0CE73 /* LoginViewController.swift in Sources */,
 				09B002152BAA6D0200A0CE73 /* AppDelegate.swift in Sources */,
-				09B002172BAA6D0200A0CE73 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09B0022C2BAA6D0300A0CE73 /* BankeyTests.swift in Sources */,
+				09B0024B2BAA8D8A00A0CE73 /* TestBankyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +310,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		09B0021A2BAA6D0200A0CE73 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09B0021B2BAA6D0200A0CE73 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		09B0021F2BAA6D0300A0CE73 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +452,7 @@
 				INFOPLIST_FILE = Bankey/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +480,7 @@
 				INFOPLIST_FILE = Bankey/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,6 +501,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2K65JWXH5N;
@@ -505,6 +511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = thil.BankeyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bankey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bankey";
@@ -516,6 +523,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2K65JWXH5N;
