@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091975A02BABC0A00072A42E /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0919759F2BABC0A00072A42E /* OnboardingContainerViewController.swift */; };
 		09B002152BAA6D0200A0CE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B002142BAA6D0200A0CE73 /* AppDelegate.swift */; };
 		09B002192BAA6D0200A0CE73 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B002182BAA6D0200A0CE73 /* LoginViewController.swift */; };
 		09B0021E2BAA6D0300A0CE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B0021D2BAA6D0300A0CE73 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0919759F2BABC0A00072A42E /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		09B002112BAA6D0200A0CE73 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B002142BAA6D0200A0CE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09B002182BAA6D0200A0CE73 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0919759E2BABC0750072A42E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0919759F2BABC0A00072A42E /* OnboardingContainerViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		09B002082BAA6D0200A0CE73 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +107,9 @@
 		09B002132BAA6D0200A0CE73 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				09B002442BAA82F800A0CE73 /* Files */,
+				0919759E2BABC0750072A42E /* Onboarding */,
 				09B002142BAA6D0200A0CE73 /* AppDelegate.swift */,
+				09B002442BAA82F800A0CE73 /* Files */,
 				09B002452BAA834500A0CE73 /* Login */,
 			);
 			path = Bankey;
@@ -274,6 +285,7 @@
 				09B002492BAA840D00A0CE73 /* LoginView.swift in Sources */,
 				09B002192BAA6D0200A0CE73 /* LoginViewController.swift in Sources */,
 				09B002152BAA6D0200A0CE73 /* AppDelegate.swift in Sources */,
+				091975A02BABC0A00072A42E /* OnboardingContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
